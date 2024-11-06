@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            var temperature = prompt("Сырттағы температураны енгізіңіз:");
+
+if (temperature >= 25) {
+    alert("Ауа райы ыстық! Жеңіл шорты және футболка киіңіз. Күннен қорғану үшін бас киім және көзілдірік киюді ұмытпаңыз.");
+} else if (temperature >= 15 && temperature < 25) {
+    alert("Жылы ауа райы. Жеңіл шалбар, ұзын жеңді футболка немесе жұқа свитер киіңіз. Жел болса, жұқа куртка алып алыңыз.");
+} else if (temperature >= 5 && temperature < 15) {
+    alert("Салқын ауа райы. Жылы свитер мен жеңіл куртка киіңіз. Қалың шалбар мен жабық аяқ киім кию ұсынылады.");
+} else if (temperature >= 0 && temperature < 5) {
+    alert("Суық ауа райы. Қалың куртка, свитер, қолғап және бас киім киіңіз.");
+} else {
+    alert("Өте суық! Қалың қыстық куртка, жылы жемпір мен қосымша қабаттар киіңіз. Қолғап, шарф, және бас киім киюді ұмытпаңыз.");
+}
+
+alert(temperature);
+    </script>
+</body>
+</html>
